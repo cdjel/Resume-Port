@@ -11,7 +11,6 @@
 }
 
 body{
-    /* background-color: var(--mainBgColor-light);             */
     background-color: rgb(249,249,246);
 }
 
@@ -44,7 +43,10 @@ li{
 
 #aboutme{
     margin-top:40px;
-    margin-left:250px;
+    /* margin-left:250px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
     
 }
 
@@ -54,8 +56,6 @@ li{
 }
 
 .section--page--bio{
-   /* display:flex;
-   align-items:flex-start; */
    margin-left:200px;
    gap:2em;
 }
@@ -82,6 +82,9 @@ li{
 #user-name{
     font-size: 50px;
     line-height: 1em;
+    margin-left:auto;
+    margin-right: auto;
+    text-align: center; 
    
 }
 
@@ -111,8 +114,8 @@ li{
     object-fit: cover;
     border-radius: 10%;
     position: absolute;
-    top: 2080px;
-    right: -270px;
+    top: 2300px;
+    right: 40px;
     
 }
 .banner{
@@ -142,8 +145,6 @@ li{
     margin-top: 50px;
 }
 
-
-
 #bio, 
 #email, 
 #csdepartment{
@@ -167,6 +168,7 @@ li{
 }
 #credit{
     font-size:0.7em;
+    margin-top: 40px;
 }
 #bio a,
 #email a,
@@ -192,17 +194,22 @@ li{
 #qualifications--list{
     list-style: none;
     font-size: 1.2em;
-    margin-top: 20px;
-   
-    margin-left:80px;
+    margin-top: 20px;  
+    /* margin-left:80px; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
 }
 
 #wrapper--techstack__items{
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
-    margin-left:100px;
+    /* margin-left:100px; */
     font-size: 1.2em;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card--techstack{
@@ -210,6 +217,9 @@ li{
     border-radius: 5px;
     padding: 0.5em 1em;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 .card--project{
@@ -248,42 +258,173 @@ li{
 
 @media(max-width:600px){
 
-    .section--page{
-        padding-top: 1em;
-        padding-bottom: 1em;
-        margin-top: 3em;
-    }
-    .section--page--bio{
-        padding-top:1em;
-        padding-bottom:1em;
-        margin-top:3em;
-        padding-left: 3em;
-        padding-right: 2em;
-    }
+/*EDIT*/
+.section--page{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+.section--page--bio{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align:center;
+}
+ 
+ .section--page--projects{
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+ 
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+}
 
-    #wrapper--hero{
-        display: flex;
-        align-items: center;
-        gap: 1em;
-    }
+#profile-pic{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: static;
 
-    #profile-pic{
-        width: 200px;
-        height: 200px;
-    }
+}
 
-    #profile-other-pic{
-        width: 500px;
-        height: 500px;
-    }
+#profile-other-pic{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    position: static;
+}
+
+#profile-other2-pic{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10%;
+    position: static;
+    margin-top: 20px;   
+}
+
+#user-name{
+    font-size: 30px;
+    line-height: 1em;
+    position:static;
+    margin-top: auto;
+    /* margin-left:auto;
+    margin-right: auto;
+    text-align: center;  */
+}
+
+.banner{
+    width:100%;
+    display:block;
+   
+}
+.banner-pic{
+    width:100%;
+    height: auto;
+    display:block;
+  
+}
+
+#wrapper--hero{
+    flex-direction: column;
+}
+
+.card--work-history{
+    border-left: none;
+    margin-left: -2em;
+    margin-right: auto;
+    text-align: center;
+}
+
+#container--main{
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 1em;
     
-    #wrapper--hero{
-        flex-direction: column;
-    }
+}
+  
+#wrapper--hero{
+    display: flex;
+    align-items: center;
+    gap: 4em;
+}
 
-    .card--work-history{
-        border-left: none;
-        padding-left: 0;
-    }
-    
+#bio, 
+#email, 
+#csdepartment{
+   margin-left:auto;
+   margin-right: auto;
+   text-align: center;
+}
+
+#socials--list{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 1em;
+    flex-wrap: wrap;
+    font-size: 14px;
+}
+
+#aboutme{
+    margin-top:20px;
+}
+
+#qualifications--list{
+    list-style: none;
+    margin-top: auto;
+    margin-left: -40px;
+    margin-right: auto;
+    text-align: center;
+
+}
+
+#workhistory{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#wrapper--techstack__items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    font-size: 0.9em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.card--techstack{
+    border: 1px solid var(--mainBorderColor);
+    border-radius: 5px;
+    padding: 0.5em;
+    align-items: center;
+}
+
+.card--project{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+}
+
+#credit{
+    font-size:0.6em;
+    margin-top: 10px;
+}
+
 }
