@@ -49,10 +49,10 @@ const Header = () => {
             </ul>
             <ul className="contact-social-list flex items-center">
                 <li className="social-item">
-                    <Link to="/">
+                    <a href="https://github.com/cdjel"target="_blank" rel="noopener noreferrer" >
                         <img src={Github} className="sizing" />
                         <span className="tooltip text">GitHub</span>
-                    </Link>
+                    </a>
                 </li>
                 <li className="social-item">
                     <a href="https://www.linkedin.com/in/danikka-jelski/" target="_blank" rel="noopener noreferrer">
