@@ -7,4 +7,6 @@ export default defineConfig({
   plugins: [react()],
   base:'/Resume-Port/' ,
   assetsInclude: ['**/*.gltf', '**/*.pdf'],
+  publicDir: 'resume-react',
+  
 });
