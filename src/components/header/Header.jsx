@@ -1,5 +1,5 @@
-import { Link } from "react-router-dom";
-import { AvatarSVG, Github, Email, Resume_Icon, Linkedin, RutgersCS } from "../../assets/image";
+// import { Link } from "react-router-dom";
+import { AvatarSVG, Github, Email, Resume_Icon, Linkedin, RutgersCS} from "../../assets/image";
 import { FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6";
 
 const Header = () => {
@@ -73,7 +73,7 @@ const Header = () => {
                     </a>
                 </li>
                 <li className="social-item">
-                    <a href="src/assets/images/jelski_crystal_resume_824_copy.pdf" target="_blank" rel="noopener noreferrer">
+                    <a href="master-react/src/assets/images/jelski_crystal_resume_824_copy.pdf" target="_blank" rel="noopener noreferrer">
                         <img src={Resume_Icon} className="sizing" />
                         <span className="tooltip text">Resume (PDF)</span>
                     </a>

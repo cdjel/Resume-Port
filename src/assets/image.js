@@ -12,7 +12,7 @@ import Logo_Java from "./images/logo_java.webp";
 import Logo_C from "./images/logo_c.png";
 import Logo_R from "./images/logo_r.png";
 import Logo_Sql from "./images/logo_sql4.png";
-
+import Resume from "./images/jelski_crystal_resume_824_copy.pdf"
 
 export {
   AvatarPNG,
@@ -29,5 +29,6 @@ export {
   Logo_C,
   Logo_R,
   Logo_Sql,
+  Resume
   
 };
