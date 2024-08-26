@@ -151,7 +151,7 @@ const DATA = {
       id: "project_2",
       name: "NJSP Traffic Stop Data Analysis",
       language: "SQL, Python",
-      description: "This project aims to explore and analyze the data of traffic stops made by the New Jersey State Police in New Jersey from January 1, 2021 to May 31, 2021. This projects aims to provide insights drawn from comparing enforcement activities across areas (stations) (e.g. frequencies of charges and arrests made), creating overview of traffic stop reasons and outcomes,and identifying trends over time. ",
+      description: "This project into the data of traffic stops made by the New Jersey State Police in New Jersey from January 1 to May 31, 2021. The analysis aims to provide comprehensive insights drawn from comparing enforcement activities across different areas (stations), such as the variations in the frequency of charges and arrests. Additionally, the project includes an overview of traffic stop reasons and outcomes, while identifying significant trends over time. ",
       github:"",
     },
     {

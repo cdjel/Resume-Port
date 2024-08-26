@@ -1,5 +1,5 @@
 
-import DATA from "../../constant/mockData";
+import DATA from "../../constant/Data";
 import Title from "../common/Title";
 import PropTypes from "prop-types";
 

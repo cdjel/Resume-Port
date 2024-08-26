@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import Title from "../common/Title";
-import DATA from "../../constant/mockData";
+import DATA from "../../constant/Data";
 
 const Projects = () => {
   return (
