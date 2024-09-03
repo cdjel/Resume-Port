@@ -7,25 +7,20 @@ const Header = () => {
     <header className="header">
       <div className="container">
         <div className="header-content grid items-center">
-          <div className="header-intro">
-            <div className="flex items-end header-intro-wrapper">
-              <img src={AvatarSVG} alt="avatar" className="avatar" />
-              <h1 className="header-name text-white">
-                Crystal "Danikka" Jelski, <br /> Aresty Research Assistant and Student @ Rutgers-NB
-              </h1>
-              
-            </div>
-            <p className="header-text text text-white">
-            Rising junior majoring in Computer Science at Rutgers-New Brunswick. Aspiring software engineer with an interest in embedded systems and data-driven technologies. Currently interested in the optimization of data processing and network performance.
-            </p>
-          </div>
-
+            
           <div className="header-contact">
+            <p>
+              Message:
+            </p>
+            <p className="header-text text text-black">
+              My name is Danikka and I am student studying computer science at Rutgers-New Brunswick. I am a research assistant in the computer science department, working with Dr. Srinivas Narayana on a project of a parallelizing compiler for high-speed network packet processing. I aspire to become a software engineer and have a current interest in embedded systems, particularly in IoT, and optimizing data-driven technologies. 
+            </p>
             <ul className="contact-info-list grid text-white">
               <li className="grid items-start info-item">
                 <span className="info-item-icon">
                   <FaEnvelope size={13} />
                 </span>
+                
                 <p className="info-item-text">
                   <span className="header-text text text-white">cdjelski76@gmail.com</span>
                 </p>
@@ -79,6 +74,21 @@ const Header = () => {
                     </a>
                 </li>
             </ul>
+
+
+          </div>
+          <div className="header-intro"> 
+          
+            <div className="flex items-end header-intro-wrapper">
+              {/**REMOVED IMG HERE TO MOVE SOMEWHERE ELSE */}
+              <img src={AvatarSVG} alt="avatar" className="avatar" />
+              <p>From:</p>
+              <p className="header-name text-white" >
+                Crystal "Danikka" Jelski, <br /> Aresty Research Assistant and Student @ Rutgers-NB
+              </p>
+              
+            </div>
+            
           </div>
         </div>
       </div>

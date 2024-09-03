@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <div className="experience-sc resume-block">
       <div className="container">
-        <div className="experience-content dotted-border-left">
+        <div className="experience-content paper"> {/**REMOVED dotted-border-left */}
           <Title titleText={"Experience"} />
           <div className="experience-list grid">
             {DATA.professionalExperiences.map((item) => (
@@ -34,7 +34,7 @@ const ExperienceItem = ({ item }) => {
         <p className="exp-position-text">{item.position}</p>
       </div>
       <div className="exp-company flex items-center flex-wrap">
-        <p > 🪴</p>  
+        <p > 📫</p>  
         <p className="company-name">{item.company.name}</p>
         <p className=" text-light-green">➣ {item.company.info}</p>
       </div>

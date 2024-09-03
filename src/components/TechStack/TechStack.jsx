@@ -6,7 +6,7 @@ const TechStack = () => {
   return (
     <div className="tech-stack-sc resume-block">
       <div className="container">
-        <div className="cert-award-content dotted-border-left">
+        <div className="cert-award-content paper">
           <Title titleText={"Other Tech Stack"} />
           <div className="tech-stack-list grid">
             {DATA.techStack?.map((item) => (

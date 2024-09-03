@@ -19,11 +19,12 @@
  
   .cert-award-item {
     padding: 16px 8px;
-    background-color: $dusty-rose;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0px;
-    margin: 12px 0;
+    // background-color: $dusty-rose;
+    // border-radius: 8px;
+    // box-shadow: rgba(0, 0, 0, 0.15) 0 5px 15px 0px;
+    margin: 12px 20px;
     transition: $transition-default;
+    border: 1px solid $payne-gray;
 
     cursor: pointer;
         &:hover{
@@ -36,8 +37,11 @@
   }
 
   .cert-award-course {
-    color: $white;
+    color: $darker-light-green;
     font-weight: 600;
     font-size: 16px;
+    // text-decoration: underline overline $payne-gray;
+    // text-underline-offset: 5px;
+   
   }
 }

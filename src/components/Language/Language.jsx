@@ -6,7 +6,7 @@ const Skill = () => {
   return (
     <div className="skill-sc resume-block">
       <div className="container">
-        <div className="skill-content dotted-border-left">
+        <div className="skill-content paper">
           <Title titleText={"Languages"} />
           <div className="skill-list grid">
             {DATA.skills?.map((item) => (

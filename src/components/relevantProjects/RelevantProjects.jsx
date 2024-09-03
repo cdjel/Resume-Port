@@ -6,14 +6,14 @@ const Projects = () => {
   return (
     <div className="project-sc resume-block">
       <div className="container">
-        <div className="project-content dotted-border-left">
+        <div className="project-content paper ">
           <Title titleText={"Relevant Projects"} />
           <div className="project-list grid">
             {DATA.relevantProjects?.map((item) => (
               <ProjectItem key={item.id} item={item} />
             ))}
           </div>
-          <div className="dots-shape"></div>
+          {/* <div className="dots-shape"></div> */}
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@ const ProjectItem = ({ item }) => {
         <p className="project-title-text">{item.name}</p>
       </div>
       <div className="project-language flex items-center flex-wrap">
-        <p className="project-language-text">🪷 {item.language}</p>
+        <p className="project-language-text">💌 {item.language}</p>
       </div>
 
       <p className="project-description text">{item.description}</p>
