@@ -13,7 +13,7 @@ const Header = () => {
               Message:
             </p>
             <p className="header-text text text-black">
-              My name is Danikka and I am student studying computer science at Rutgers-New Brunswick. I am a research assistant in the computer science department, working with Dr. Srinivas Narayana on a project of a parallelizing compiler for high-speed network packet processing. I aim to become a software engineer and have a current interest in embedded systems and back-end development. 
+              My name is Danikka and I am student studying computer science at Rutgers-New Brunswick. I am a research assistant in the computer science department, working on a project involving compiler optimizations for parallel network packet processing in the Linux kernel with eBPF. Currently, I am interested in deepening my knowledge in systems software and embedded systems, with a focus on computer architecture, performance optimization, and low-level programming. 
             </p>
             <ul className="contact-info-list grid text-white">
               <li className="grid items-start info-item">
