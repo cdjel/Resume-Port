@@ -20,7 +20,7 @@ const DATA = {
         info: "Research Program @ Rutgers-NB",
       },
       description:
-        "Assisting on a project which explores techniques to parallelize packet processing code across multiple CPU cores, and building compilers to translate code written for single CPU cores to run efficiently on multiple CPU cores. Working with a high-speed packet processing framework (eBPF) and a compiler front-end (Clang).",
+        "Currently am a research assistant on a project under the Computer Science Department, which involves creating a compiler frontend that converts single-threaded applications into a format designed for multi-core processing in the Linux kernel using eBPF. Advisor is Dr. Srinivas Narayana. Responsibilities include researching automation techniques to optimize C code for parallelism using tools like Coccinelle. Also, am enhancing knowledge of compilers, specifically Clang, while actively participating in lab activities.",
     },
     {
       id: "prof_exp_2",
