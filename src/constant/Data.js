@@ -20,7 +20,7 @@ const DATA = {
         info: "Research Program @ Rutgers-NB",
       },
       description:
-        "Currently am a research assistant on a project under the Computer Science Department, which involves creating a compiler frontend that converts single-threaded applications into a format designed for multi-core processing in the Linux kernel using eBPF. Advisor is Dr. Srinivas Narayana. Responsibilities include researching automation techniques to optimize C code for parallelism using tools like Coccinelle. Also, am enhancing knowledge of compilers, specifically Clang, while actively participating in lab activities.",
+        "Currently am a research assistant on a project under the Computer Science Department, which involves creating optimizing network packet processing via a technique (State-Compute Replication) to scale across multi-cores. Advisor is Dr. Srinivas Narayana. Responsibilities include researching automation techniques to optimize C code for parallelism using the transformation tool Coccinelle. Enhancing knowledge of compilers, specifically Clang, eBPF/XDP, networks, etc., while actively participating in lab activities.",
     },
     {
       id: "prof_exp_2",
@@ -151,7 +151,7 @@ const DATA = {
       id: "project_2",
       name: "Traffic Stop Data API",
       language: "Python",
-      description: "Currently developing a RESTful API for managing and analyzing traffic stop data from csv files. This project aims to provide a comprehensive backend solution for querying and reporting traffic stop data. Additionally, it will provide statistical insights, such as from comparing enforcement activities across different areas (stations) and analyzing trends over time. ",
+      description: "Performed statistical analysis on over 232,000+ entries from the NJ State Police traffic stop data to provide insights into enforcement activities and trends. ",
       github:"",
     },
     {
